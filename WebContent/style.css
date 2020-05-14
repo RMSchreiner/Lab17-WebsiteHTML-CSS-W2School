@@ -1,0 +1,64 @@
+/*<link href="style.css" rel="stylesheet"/> START BY INSERTING A LINK TO THE INDEX*/
+/* element selector - just based upon tag name */
+ 
+.backColor { background-color: #65A2D0 ;}
+
+  div {
+  font-family: Arial;
+}
+ 
+ h1 {   /*selector*/
+  display: block;   /*property*/   /* options between block and inline elements (layout)*/
+  font-size: 3em;    /*each additional line is a decleration*/
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: 'Arial',sans-serif; /*backup fonts*/
+} /*this whole thing is called a rule*/
+.rectangle {
+  height: 100px;
+  width: 500px;
+  background-color: white;}
+/*class name class in html with <table class = "name"> */
+
+.centerText {padding: 4px;
+             margin:  4px;  }
+
+.tableBorder {
+  border: 3px solid black;
+}
+
+.tableBoldFontSize{
+font-size: 200%;	/* 1em/  12px /percentage 100% */
+}
+
+.tableFontSize{
+font-size: 150%;	
+}
+
+/* id - one item per page*/
+#first{
+	font-style: italic;
+}
+
+nav a{
+padding: 4px;
+margin: 4px;	
+}
+
+img{  display: inline; /* the default for span */
+   }
+
+/* descendent selector  anchor tag if within another element*/
+/*look up online*/
+/* div p {
+}*/
+
+/*multiple selector can be combined and seperated with , commas */
+/*.kitty, <h1>, text etx.{           }*/
+/* classes are seperated by a space in the website
+/* fonts that work on anyones computer font-family:serif; sans-serif; monospace, cursive*/
+
+/*flexbox is a more advanced type of layout as well as float*/
